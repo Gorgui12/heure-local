@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heure locale dans tous les pays</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Heure locale dans tous les pays</h1>
+        <p>Sélectionnez un pays pour voir l’heure actuelle en temps réel.</p>
+    </header>
+
+    <section class="container">
+        <select id="countrySelect" style="font-size: 18px; padding: 12px; width: 90%; max-width: 350px;"></select>
+
+        <div class="clock-box">
+            <h2 id="countryName">Sénégal</h2>
+            <div id="timeDisplay">--:--:--</div>
+            <div id="dateDisplay"></div>
+            <small id="utcDisplay"></small>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
